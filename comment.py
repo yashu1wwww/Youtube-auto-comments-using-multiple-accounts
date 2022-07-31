@@ -19,7 +19,9 @@ wait.until(EC.visibility_of_element_located((By.NAME,'identifier'))).send_keys(e
 wait.until(EC.visibility_of_element_located((By.NAME,'password'))).send_keys(password)
 time.sleep(3)
 
-with open("urls.txt") as f:
+#upto the above the codes credits goes to https://github.com/xtekky these man
+
+with open("urls.txt") as f:  #change url in url text file which you required
     for url in f:
         driver.get(url)  
 
@@ -28,13 +30,15 @@ driver.find_element_by_css_selector('#movie_player > div.ytp-chrome-bottom > div
 
 #time.sleep(3)
 
-driver.execute_script("window.scrollTo(0, 600);")
+driver.execute_script("window.scrollTo(0, 600);") #line copied from stackoverflow
 
-WebDriverWait(driver, 20).until(EC.presence_of_element_located((By.CSS_SELECTOR, "ytd-comments ytd-comment-simplebox-renderer")))
+WebDriverWait(driver, 20).until(EC.presence_of_element_located((By.CSS_SELECTOR, "ytd-comments ytd-comment-simplebox-renderer"))) #line copied from stackoverflow
+
+#below codes was made by me
 
 driver.find_element_by_css_selector("ytd-comments ytd-comment-simplebox-renderer div#placeholder-area").click()
 
-driver.find_element_by_css_selector("#contenteditable-root").send_keys("dboss")
+driver.find_element_by_css_selector("#contenteditable-root").send_keys("nyc") #change to your required cmt text and make same changes in below code also
 
 time.sleep(2)
 
@@ -46,19 +50,7 @@ WebDriverWait(driver, 20).until(EC.presence_of_element_located((By.CSS_SELECTOR,
 
 driver.find_element_by_css_selector("ytd-comments ytd-comment-simplebox-renderer div#placeholder-area").click()
 
-driver.find_element_by_css_selector("#contenteditable-root").send_keys("darshan")
-
-time.sleep(2)
-
-send_comment_button = driver.find_element_by_id("submit-button").click()
-
-time.sleep(3)
-    
-WebDriverWait(driver, 20).until(EC.presence_of_element_located((By.CSS_SELECTOR, "ytd-comments ytd-comment-simplebox-renderer")))
-
-driver.find_element_by_css_selector("ytd-comments ytd-comment-simplebox-renderer div#placeholder-area").click()
-
-driver.find_element_by_css_selector("#contenteditable-root").send_keys("super")
+driver.find_element_by_css_selector("#contenteditable-root").send_keys("amazing")
 
 time.sleep(2)
 
@@ -70,7 +62,7 @@ WebDriverWait(driver, 20).until(EC.presence_of_element_located((By.CSS_SELECTOR,
 
 driver.find_element_by_css_selector("ytd-comments ytd-comment-simplebox-renderer div#placeholder-area").click()
 
-driver.find_element_by_css_selector("#contenteditable-root").send_keys("swamy")
+driver.find_element_by_css_selector("#contenteditable-root").send_keys("favt")
 
 time.sleep(2)
 
@@ -82,7 +74,19 @@ WebDriverWait(driver, 20).until(EC.presence_of_element_located((By.CSS_SELECTOR,
 
 driver.find_element_by_css_selector("ytd-comments ytd-comment-simplebox-renderer div#placeholder-area").click()
 
-driver.find_element_by_css_selector("#contenteditable-root").send_keys("kariya")
+driver.find_element_by_css_selector("#contenteditable-root").send_keys("your awesome")
+
+time.sleep(2)
+
+send_comment_button = driver.find_element_by_id("submit-button").click()
+
+time.sleep(3)
+    
+WebDriverWait(driver, 20).until(EC.presence_of_element_located((By.CSS_SELECTOR, "ytd-comments ytd-comment-simplebox-renderer")))
+
+driver.find_element_by_css_selector("ytd-comments ytd-comment-simplebox-renderer div#placeholder-area").click()
+
+driver.find_element_by_css_selector("#contenteditable-root").send_keys("smart")
 
 time.sleep(2)
 
@@ -92,6 +96,7 @@ send_comment_button = driver.find_element_by_id("submit-button").click()
 
 driver.close()
 
+#i copied line 1 to 97 and paste again below and change the mail and pass you also change the cmt text 
 import undetected_chromedriver as uc
 from selenium.webdriver.common.by import By
 from selenium.webdriver.common.keys import Keys
@@ -129,7 +134,7 @@ WebDriverWait(driver, 20).until(EC.presence_of_element_located((By.CSS_SELECTOR,
 
 driver.find_element_by_css_selector("ytd-comments ytd-comment-simplebox-renderer div#placeholder-area").click()
 
-driver.find_element_by_css_selector("#contenteditable-root").send_keys("dboss")
+driver.find_element_by_css_selector("#contenteditable-root").send_keys("fabulous")
 
 time.sleep(2)
 
@@ -141,19 +146,7 @@ WebDriverWait(driver, 20).until(EC.presence_of_element_located((By.CSS_SELECTOR,
 
 driver.find_element_by_css_selector("ytd-comments ytd-comment-simplebox-renderer div#placeholder-area").click()
 
-driver.find_element_by_css_selector("#contenteditable-root").send_keys("challenging star")
-
-time.sleep(2)
-
-send_comment_button = driver.find_element_by_id("submit-button").click()
-
-time.sleep(3)
-    
-WebDriverWait(driver, 20).until(EC.presence_of_element_located((By.CSS_SELECTOR, "ytd-comments ytd-comment-simplebox-renderer")))
-
-driver.find_element_by_css_selector("ytd-comments ytd-comment-simplebox-renderer div#placeholder-area").click()
-
-driver.find_element_by_css_selector("#contenteditable-root").send_keys("darshan")
+driver.find_element_by_css_selector("#contenteditable-root").send_keys("super")
 
 time.sleep(2)
 
@@ -165,7 +158,7 @@ WebDriverWait(driver, 20).until(EC.presence_of_element_located((By.CSS_SELECTOR,
 
 driver.find_element_by_css_selector("ytd-comments ytd-comment-simplebox-renderer div#placeholder-area").click()
 
-driver.find_element_by_css_selector("#contenteditable-root").send_keys("swamy")
+driver.find_element_by_css_selector("#contenteditable-root").send_keys("dashing")
 
 time.sleep(2)
 
@@ -177,7 +170,19 @@ WebDriverWait(driver, 20).until(EC.presence_of_element_located((By.CSS_SELECTOR,
 
 driver.find_element_by_css_selector("ytd-comments ytd-comment-simplebox-renderer div#placeholder-area").click()
 
-driver.find_element_by_css_selector("#contenteditable-root").send_keys("kariya")
+driver.find_element_by_css_selector("#contenteditable-root").send_keys("wonderful")
+
+time.sleep(2)
+
+send_comment_button = driver.find_element_by_id("submit-button").click()
+
+time.sleep(3)
+    
+WebDriverWait(driver, 20).until(EC.presence_of_element_located((By.CSS_SELECTOR, "ytd-comments ytd-comment-simplebox-renderer")))
+
+driver.find_element_by_css_selector("ytd-comments ytd-comment-simplebox-renderer div#placeholder-area").click()
+
+driver.find_element_by_css_selector("#contenteditable-root").send_keys("style")
 
 time.sleep(2)
 
@@ -223,7 +228,7 @@ WebDriverWait(driver, 20).until(EC.presence_of_element_located((By.CSS_SELECTOR,
 
 driver.find_element_by_css_selector("ytd-comments ytd-comment-simplebox-renderer div#placeholder-area").click()
 
-driver.find_element_by_css_selector("#contenteditable-root").send_keys("dboss")
+driver.find_element_by_css_selector("#contenteditable-root").send_keys("daring")
 
 time.sleep(2)
 
@@ -235,19 +240,7 @@ WebDriverWait(driver, 20).until(EC.presence_of_element_located((By.CSS_SELECTOR,
 
 driver.find_element_by_css_selector("ytd-comments ytd-comment-simplebox-renderer div#placeholder-area").click()
 
-driver.find_element_by_css_selector("#contenteditable-root").send_keys("challenging star")
-
-time.sleep(2)
-
-send_comment_button = driver.find_element_by_id("submit-button").click()
-
-time.sleep(3)
-    
-WebDriverWait(driver, 20).until(EC.presence_of_element_located((By.CSS_SELECTOR, "ytd-comments ytd-comment-simplebox-renderer")))
-
-driver.find_element_by_css_selector("ytd-comments ytd-comment-simplebox-renderer div#placeholder-area").click()
-
-driver.find_element_by_css_selector("#contenteditable-root").send_keys("darshan")
+driver.find_element_by_css_selector("#contenteditable-root").send_keys("smart")
 
 time.sleep(2)
 
@@ -259,7 +252,7 @@ WebDriverWait(driver, 20).until(EC.presence_of_element_located((By.CSS_SELECTOR,
 
 driver.find_element_by_css_selector("ytd-comments ytd-comment-simplebox-renderer div#placeholder-area").click()
 
-driver.find_element_by_css_selector("#contenteditable-root").send_keys("swamy")
+driver.find_element_by_css_selector("#contenteditable-root").send_keys("looking")
 
 time.sleep(2)
 
@@ -271,7 +264,19 @@ WebDriverWait(driver, 20).until(EC.presence_of_element_located((By.CSS_SELECTOR,
 
 driver.find_element_by_css_selector("ytd-comments ytd-comment-simplebox-renderer div#placeholder-area").click()
 
-driver.find_element_by_css_selector("#contenteditable-root").send_keys("kariya")
+driver.find_element_by_css_selector("#contenteditable-root").send_keys("smart")
+
+time.sleep(2)
+
+send_comment_button = driver.find_element_by_id("submit-button").click()
+
+time.sleep(3)
+    
+WebDriverWait(driver, 20).until(EC.presence_of_element_located((By.CSS_SELECTOR, "ytd-comments ytd-comment-simplebox-renderer")))
+
+driver.find_element_by_css_selector("ytd-comments ytd-comment-simplebox-renderer div#placeholder-area").click()
+
+driver.find_element_by_css_selector("#contenteditable-root").send_keys("large")
 
 time.sleep(2)
 
@@ -317,7 +322,7 @@ WebDriverWait(driver, 20).until(EC.presence_of_element_located((By.CSS_SELECTOR,
 
 driver.find_element_by_css_selector("ytd-comments ytd-comment-simplebox-renderer div#placeholder-area").click()
 
-driver.find_element_by_css_selector("#contenteditable-root").send_keys("dboss")
+driver.find_element_by_css_selector("#contenteditable-root").send_keys("tension")
 
 time.sleep(2)
 
@@ -329,19 +334,7 @@ WebDriverWait(driver, 20).until(EC.presence_of_element_located((By.CSS_SELECTOR,
 
 driver.find_element_by_css_selector("ytd-comments ytd-comment-simplebox-renderer div#placeholder-area").click()
 
-driver.find_element_by_css_selector("#contenteditable-root").send_keys("challenging star")
-
-time.sleep(2)
-
-send_comment_button = driver.find_element_by_id("submit-button").click()
-
-time.sleep(3)
-    
-WebDriverWait(driver, 20).until(EC.presence_of_element_located((By.CSS_SELECTOR, "ytd-comments ytd-comment-simplebox-renderer")))
-
-driver.find_element_by_css_selector("ytd-comments ytd-comment-simplebox-renderer div#placeholder-area").click()
-
-driver.find_element_by_css_selector("#contenteditable-root").send_keys("darshan")
+driver.find_element_by_css_selector("#contenteditable-root").send_keys("amazing")
 
 time.sleep(2)
 
@@ -353,7 +346,7 @@ WebDriverWait(driver, 20).until(EC.presence_of_element_located((By.CSS_SELECTOR,
 
 driver.find_element_by_css_selector("ytd-comments ytd-comment-simplebox-renderer div#placeholder-area").click()
 
-driver.find_element_by_css_selector("#contenteditable-root").send_keys("swamy")
+driver.find_element_by_css_selector("#contenteditable-root").send_keys("sent")
 
 time.sleep(2)
 
@@ -365,7 +358,19 @@ WebDriverWait(driver, 20).until(EC.presence_of_element_located((By.CSS_SELECTOR,
 
 driver.find_element_by_css_selector("ytd-comments ytd-comment-simplebox-renderer div#placeholder-area").click()
 
-driver.find_element_by_css_selector("#contenteditable-root").send_keys("kariya")
+driver.find_element_by_css_selector("#contenteditable-root").send_keys("wrong")
+
+time.sleep(2)
+
+send_comment_button = driver.find_element_by_id("submit-button").click()
+
+time.sleep(3)
+    
+WebDriverWait(driver, 20).until(EC.presence_of_element_located((By.CSS_SELECTOR, "ytd-comments ytd-comment-simplebox-renderer")))
+
+driver.find_element_by_css_selector("ytd-comments ytd-comment-simplebox-renderer div#placeholder-area").click()
+
+driver.find_element_by_css_selector("#contenteditable-root").send_keys("looking")
 
 time.sleep(2)
 
@@ -410,7 +415,7 @@ WebDriverWait(driver, 20).until(EC.presence_of_element_located((By.CSS_SELECTOR,
 
 driver.find_element_by_css_selector("ytd-comments ytd-comment-simplebox-renderer div#placeholder-area").click()
 
-driver.find_element_by_css_selector("#contenteditable-root").send_keys("dboss")
+driver.find_element_by_css_selector("#contenteditable-root").send_keys("google")
 
 time.sleep(2)
 
@@ -422,19 +427,7 @@ WebDriverWait(driver, 20).until(EC.presence_of_element_located((By.CSS_SELECTOR,
 
 driver.find_element_by_css_selector("ytd-comments ytd-comment-simplebox-renderer div#placeholder-area").click()
 
-driver.find_element_by_css_selector("#contenteditable-root").send_keys("challenging star")
-
-time.sleep(2)
-
-send_comment_button = driver.find_element_by_id("submit-button").click()
-
-time.sleep(3)
-    
-WebDriverWait(driver, 20).until(EC.presence_of_element_located((By.CSS_SELECTOR, "ytd-comments ytd-comment-simplebox-renderer")))
-
-driver.find_element_by_css_selector("ytd-comments ytd-comment-simplebox-renderer div#placeholder-area").click()
-
-driver.find_element_by_css_selector("#contenteditable-root").send_keys("darshan")
+driver.find_element_by_css_selector("#contenteditable-root").send_keys("star")
 
 time.sleep(2)
 
@@ -446,7 +439,7 @@ WebDriverWait(driver, 20).until(EC.presence_of_element_located((By.CSS_SELECTOR,
 
 driver.find_element_by_css_selector("ytd-comments ytd-comment-simplebox-renderer div#placeholder-area").click()
 
-driver.find_element_by_css_selector("#contenteditable-root").send_keys("swamy")
+driver.find_element_by_css_selector("#contenteditable-root").send_keys("temporary")
 
 time.sleep(2)
 
@@ -458,7 +451,19 @@ WebDriverWait(driver, 20).until(EC.presence_of_element_located((By.CSS_SELECTOR,
 
 driver.find_element_by_css_selector("ytd-comments ytd-comment-simplebox-renderer div#placeholder-area").click()
 
-driver.find_element_by_css_selector("#contenteditable-root").send_keys("kariya")
+driver.find_element_by_css_selector("#contenteditable-root").send_keys("swag")
+
+time.sleep(2)
+
+send_comment_button = driver.find_element_by_id("submit-button").click()
+
+time.sleep(3)
+    
+WebDriverWait(driver, 20).until(EC.presence_of_element_located((By.CSS_SELECTOR, "ytd-comments ytd-comment-simplebox-renderer")))
+
+driver.find_element_by_css_selector("ytd-comments ytd-comment-simplebox-renderer div#placeholder-area").click()
+
+driver.find_element_by_css_selector("#contenteditable-root").send_keys("noway")
 
 time.sleep(2)
 
@@ -467,3 +472,4 @@ send_comment_button = driver.find_element_by_id("submit-button").click()
 
 driver.close()
 
+#i added upto 5 mails if you want more then 1st line to 97 line and change email and pass and change cmts text your required
