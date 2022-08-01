@@ -1,6 +1,8 @@
 # Youtube-auto-comments-using-multi-accounts
 Youtube auto comments using multi accounts using selenium with python
 
+NOTE🏹:-without adding proxies some comments will remove by youtube because of same ip location so see the screenshot and modify to that to in comment.py script 
+
 #Replace Email and Pass in 10 & 11 line change url in text file which url you required and change the cmt text in the required field's 
 
 After download the folder extract it and open cmd and enter Python If You Find Python Version
