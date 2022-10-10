@@ -13,7 +13,7 @@ and Pip install Proxy in cmd
 
 After download the chromedriver(https://chromedriver.chromium.org/downloads extract these to downloaded folder)and with matches your chrome version of your pc and
 
-enter comment.py in cmd or in python idle
+enter comment.py in cmd on that particular folder or double click on comment.py.... 
 
 👉Python Install Setup=https://youtu.be/4bUOrMj88Pc
 
