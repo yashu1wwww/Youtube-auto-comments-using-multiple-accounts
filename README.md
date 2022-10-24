@@ -19,6 +19,9 @@ After download the chromedriver(https://chromedriver.chromium.org/downloads extr
 
 enter comment.py in cmd on that particular folder or double click on comment.py.... 
 
+👉 YouTube Auto Cmts Using Python https://youtu.be/JJmyzyBl5bE
+(these video only cmts using one acc muliple accs means after one acc cmts complete its close the tab and open the new tab and do the same process)
+
 👉Python Install Setup=https://youtu.be/4bUOrMj88Pc
 
 👉Note:-
