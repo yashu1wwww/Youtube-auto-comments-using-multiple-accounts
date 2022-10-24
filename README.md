@@ -4,13 +4,12 @@ Youtube auto comments using multi accounts using selenium with python
 👉NOTE:-Without adding proxies some comments will remove by youtube because of same ip location so see the screenshot and modify to that to in comment.py script👍 
 
 #Replace Email and Pass in 14 & 15 line and also in 522 and 523 line 
-change url in url.txt file which url you required and change the cmt text in the required fie
 
-
+change url in url.txt file which url you required and change the cmt text if you needed to your required cmts in 11 and 519 line...
 
 After download the folder extract it and open cmd and enter Python If You Find Python Version
 
-Then enter pip install undetected_chromedriver in cmd and hit enter button (internet will be in on)
+Then enter pip install undetected_chromedriver in cmd and hit enter button (internet connection will be in on)
 
 and enter pip install random in cmd and hit enter button
 
