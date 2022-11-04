@@ -1001,4 +1001,4 @@ time.sleep(5)
 
 driver.close()
 
-#i added two accounts if you want more means copy line from 1 to 507 and paste it in 1016 line and dont forgot ton replace mail and password
+#i added two accounts if you want more means copy line from 509 to 1002 and paste it in 1003 line and dont forgot ton replace mail and password
