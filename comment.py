@@ -32,7 +32,7 @@ time.sleep(5)
 
 driver.find_element_by_css_selector('#movie_player > div.ytp-chrome-bottom > div.ytp-chrome-controls > div.ytp-left-controls > button').click()
 
-time.sleep(3)
+#time.sleep(3)
 
 driver.execute_script("window.scrollTo(0, 600);")
 
@@ -506,19 +506,6 @@ time.sleep(5)
 
 driver.close()
 
-import undetected_chromedriver as uc
-from selenium.webdriver.common.by import By
-from selenium.webdriver.common.keys import Keys
-from selenium.webdriver.support.ui import WebDriverWait
-from selenium.common.exceptions import NoSuchElementException
-from selenium.webdriver.support import expected_conditions as EC
-from selenium.webdriver.common.action_chains import ActionChains
-import time
-import random
-
-commentsDict = ["good","amazing one","keep going","excellent","next video please","sub to your channel","shared to others","made my day","keep it up","sensational","rock it","challenge it","post video daily","work was amazing","needed more edit","edit was awesome",
-"what a video man","watched yesterday","your are genious","faster than light","your work needed success","marvelous","new fan of you","keep rock dude","copy cat","link the video","listening","writing","reading","playing","eating",] #replace with your words
-
 email = 'virat@1273@gmail.com\n'   #replace with your mail         
 password = 'pass1243$%\n'           #replace with your password     
 
@@ -540,7 +527,7 @@ time.sleep(5)
 
 driver.find_element_by_css_selector('#movie_player > div.ytp-chrome-bottom > div.ytp-chrome-controls > div.ytp-left-controls > button').click()
 
-time.sleep(3)
+#time.sleep(3)
 
 driver.execute_script("window.scrollTo(0, 600);")
 
