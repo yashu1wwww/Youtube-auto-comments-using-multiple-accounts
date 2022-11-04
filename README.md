@@ -5,6 +5,8 @@ Youtube auto comments using multi accounts using selenium with python
 
 #Replace Email and Pass in 14th & 15th line and also in 509 and 510 line 
 
+note:-use accounts which dont have 2-factor authentication...
+
 change url in url.txt file which url you required and change the cmt text if you needed to your required cmts in 11th line...
 
 After download the folder extract it and open cmd and enter Python If You Find Python Version
