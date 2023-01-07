@@ -5,14 +5,6 @@ Youtube auto comments using multi accounts using selenium with python
 
 https://youtu.be/c9MAJpax5R0
 
-❗Currently The Project Have The Error❗
-
-The script Which Successfully auto login but when Its Open The Video The Below error occurs
-
-𝙎𝙚𝙡𝙚𝙣𝙞𝙪𝙢 - 𝙊𝙎𝙀𝙧𝙧𝙤𝙧: [𝙒𝙞𝙣𝙀𝙧𝙧𝙤𝙧 6] 𝙏𝙝𝙚 𝙝𝙖𝙣𝙙𝙡𝙚 𝙞𝙨 𝙞𝙣𝙫𝙖𝙡𝙞𝙙
-
-So Please Fork these Repository Or I will come back with soon.....
-
 #Replace Email and Pass in 14th & 15th line and also in 509 and 510 line 
 
 note:-use accounts which dont have 2-factor authentication...
