@@ -5,21 +5,25 @@ Youtube auto comments using multi accounts using selenium with python
 
 https://youtu.be/c9MAJpax5R0
 
-Note: Use accounts that do not have two-factor authentication...
+# Note: Use accounts that do not have two-factor authentication...
 
-Change the email and password in the 14th and 15th lines, as well as in the 509th and 510th lines.
+Change the email and password in the 14th and 15th lines, as well as in the 73 & 74th lines.
 
-Also, change the URL in the url.txt file to the desired URL and change the comment text in the 11th line to the desired comments.
+Also, change the URL in the url.txt file to the desired URL and change the comments text that you needed in the 11th line..
+
+C
 
 After downloading the folder, extract it and open the command prompt. If you have Python installed, type "Python" in the command prompt to check the version.
 
-Then type "pip install undetected_chromedriver" in the command prompt and press the Enter button. Make sure that you have an active internet connection.
+Then type "pip install undetected_chromedriver" in the command prompt and press the Enter button.
+
+Make sure that you have an active internet connection.
 
 Type "pip install random" in the command prompt and press the Enter button.
 
-Type "pip install Proxy" in the command prompt and press the Enter button.
+After downloading the chromedriver from https://chromedriver.chromium.org/downloads,
 
-After downloading the chromedriver from https://chromedriver.chromium.org/downloads, extract it to the downloaded folder that matches the version of your Chrome browser.
+extract it to the downloaded folder that matches the version of your Chrome browser.
 
 Type "comment.py" in the command prompt in that particular folder or double-click on comment.py
 
