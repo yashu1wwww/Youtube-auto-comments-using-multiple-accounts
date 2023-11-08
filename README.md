@@ -11,7 +11,7 @@ Change the email and password in the 14th and 15th lines, as well as in the 73 &
 
 Also, change the URL in the url.txt file to the desired URL and change the comments text that you needed in the 11th line..
 
-C
+# Change the number 30 to how many comments you want in 60th and 117th line...
 
 After downloading the folder, extract it and open the command prompt. If you have Python installed, type "Python" in the command prompt to check the version.
 
