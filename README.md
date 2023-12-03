@@ -7,6 +7,10 @@ https://youtu.be/c9MAJpax5R0
 
 # Note: Use accounts that do not have two-factor authentication...
 
+# Use These If It Dont Run Means
+
+https://github.com/yashu1wwww/500-Auto-Youtube-Comments-Using-Localhost
+
 Change the email and password in the 14th and 15th lines, as well as in the 73 & 74th lines.
 
 Also, change the URL in the url.txt file to the desired URL and change the comments text that you needed in the 11th line..
